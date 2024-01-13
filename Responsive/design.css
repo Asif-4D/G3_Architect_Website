@@ -1,0 +1,21 @@
+/* Header area responsive */
+
+/* Mobile Device */
+@media screen and (max-width: 576px) {
+    .header-area{
+        padding: 20px;
+    }
+    .menu-bar{
+        flex-direction: column;
+    }
+}
+
+/* Tablet or medium devices */
+@media screen and (min-width: 577px) and (max-width: 960px) {
+    .header-area{
+        padding: 50px;
+    }
+    .menu-bar{
+        flex-direction: column;
+    }
+}

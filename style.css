@@ -12,7 +12,7 @@ body{
 }
 .btn-primary{
     color: #FFF;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     font-weight: 600;
     border-radius: 8px;
     background: #FF900E;
@@ -67,4 +67,50 @@ ul li a{
     text-align: center;
     font-weight: 400;
     margin-top: 25px;
+}
+.banner-img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* Main style */
+.main-area{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Team style */
+.team-container{
+    display: flex;
+    align-items: center;
+    
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.team-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.team-content h2{
+    color: #727272;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.OfOur{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.QFeatures{
+    color: #FF900E;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.team-content p{
+    color: #727272;
+    font-weight: 400;
+    margin-top: 24px;
 }
