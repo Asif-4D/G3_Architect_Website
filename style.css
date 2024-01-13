@@ -37,7 +37,6 @@ body{
 }
 ul{
     display: flex;
-
 }
 ul li{
     list-style: none;
@@ -55,7 +54,6 @@ ul li a{
     font-weight: 700
 }
 .banner-content{
-    width: 862px;
     text-align: center;
     margin: 0 auto;
 }
@@ -70,10 +68,11 @@ ul li a{
     font-weight: 400;
     margin-top: 25px;
 }
-.banner-img{
+.banner-img img{
     width: 100%;
     margin-top: 50px;
 }
+
 
 /* Main style */
 .main-area{
@@ -114,4 +113,27 @@ ul li a{
 .team-content p{ 
     font-weight: 400;
     margin-top: 24px;
+}
+
+/* Facts area style */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 25px 20px;
+    text-align: center;
+    align-items: center;
+}
+.card-stats{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+.card-title{
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
