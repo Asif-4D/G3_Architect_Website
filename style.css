@@ -23,6 +23,12 @@ body{
 .shared-text-color{
     color: #727272;
 }
+.OfOur-shared{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
 /* Banner style */
 
 .header-area{
@@ -100,11 +106,6 @@ ul li a{
     font-size: 2.8rem;
     font-weight: 500;
 }
-.OfOur{
-    color: #131313;
-    font-size: 2.8rem;
-    font-weight: 700;
-}
 .QFeatures{
     color: #FF900E;
     font-size: 2.8rem;
@@ -115,17 +116,84 @@ ul li a{
     margin-top: 24px;
 }
 
+/* Feature section style */
+.features-container{
+    display:flex;
+    justify-content: space-between;
+    margin: 130px 0;
+}
+.features{
+    width: 40%;
+}
+.feature-img{
+    width: 40%;
+}
+.feature-img img{
+    width: 100%;
+    
+}
+.features h3{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    border-left: 3px solid #FF900E;
+    padding-left: 20px;
+    margin: 30px 0;
+}
+.features-content{
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.features-content h4{
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.feature-img img{
+    height: 90%;
+}
+.experience{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 45px;
+    width: 342px;
+    text-align: center;
+    align-items: center;
+    font-size: 4rem;
+    color: #ffffff;
+    position: relative;
+    bottom: 130px;
+    right: 150px;
+}
+.experience h3{
+    font-size: 1.5rem;
+}
+
+
 /* Facts area style */
 .facts-card-container{
     display: flex;
     justify-content: space-around;
 }
+.facts .shared-text-color{
+    width: 542px;
+    margin-top: 24px;
+    margin-bottom: 100px;
+} 
 .card{
     border-radius: 8px;
     border: 1px solid #FF900E;
     padding: 25px 20px;
     text-align: center;
     align-items: center;
+}
+.facts-card-container .card:last-child{
+    padding: 20px 35px;
 }
 .card-stats{
     color: #424242;
@@ -137,3 +205,7 @@ ul li a{
     font-size: 1.25rem;
     font-weight: 600;
 }
+
+
+
+
