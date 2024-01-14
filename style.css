@@ -19,6 +19,12 @@ body{
     padding: 20px 25px;
     border: none;
     margin-top: 32px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background: #965103;
+
 }
 .shared-text-color{
     color: #727272;
@@ -53,7 +59,14 @@ ul li{
 ul li a{
     text-decoration: none;
     color: #424242;
+    padding: 10px 20px;
+    transition: 0.3s;
+    border-radius: 10px;
 } 
+ul li a:hover{
+    color: #ffffff;
+    background-color: #965103;
+}
 .menu-bar h3{
     color: #131313;
     font-size: 2.8em;
@@ -206,6 +219,43 @@ ul li a{
     font-weight: 600;
 }
 
+/* Sponspors area style */
+.sponsers-area{
+    margin-top: 150px;
+}
+.sponsers-area, .footer-text{
+    text-align: center;
+    align-items: center;
+}
+.sponsers-area h2{
+    margin-bottom: 24px;
+}
+.sponsers-area p{
+    margin-top: 24px;
+    width: 542px;
+    margin: 0 auto;
+}
+.sponsers-img-rapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.sponsers-img{
+    cursor: pointer;
+}
 
 
+
+/* Footer area style */
+.footer-text{
+    padding: 40px 0;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+.footer-text p{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
 
